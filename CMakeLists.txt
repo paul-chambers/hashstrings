@@ -7,6 +7,7 @@ set( CMAKE_INSTALL_PREFIX /usr )
 
 include_directories(.)
 
+add_library( argtable3 argtable3.c argtable3.h )
 
 add_executable( hashstrings
                 hashstrings.c    hashstrings.h
